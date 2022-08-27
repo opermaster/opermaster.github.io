@@ -1,0 +1,51 @@
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 850px;
+}
+.link{
+    margin-left: 885px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*catalog#1*/
+.stuff{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    width: 900px;
+    height:250px;
+}
+.catalog-item-1{
+    width: 1100px;
+    height:530px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    background-color: rgb(224, 223, 208);
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.catalog-logo-1{
+    width: 380px;
+    height: 560px;
+}
+.desk-1{
+    position: absolute;
+    margin-left: 430px;
+    top: 350px;
+}
+.buy{
+    width: 70px;
+    height: 35px;
+    border: 0px;
+}
+.buy:hover{
+   cursor: pointer;
+}
+.buy-text{
+    font-size: 15px;
+}

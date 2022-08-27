@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel='stylesheet' , href='set11.css'>
+    <title>Куртка кожаная</title>
+</head>
+<body>
+<div class="head">
+    <header>
+        <img class="logo" src="Logo.jpg"></img>
+        <div class="links">
+            <a class="link" href="..\main.html">Home</a>
+        </div>
+    </header>
+</div>
+
+    <div class="stuff">
+       <button type="change" class="change" id="change"><h1 class="buy-text" >→</h1></button>
+        <div class="catalog-item-1">
+        <img class="catalog-logo-1" src="клжанка.jpg"><h1 class="desk-1">№11 Куртка кожаная -"Стильнее чем у Деда"
+            <br> 550 грн <button type="submit" class="buy" id="submit"><h1 class="buy-text" >Купить</h1></button><br>
+            <br>Описание:<br>
+          Эта куртка сделана из премиальных<br> материалов а именно самым жорогим<br> есть кожа херсонского деда с<br>
+        кторого была снята эта куртка<br>
+        Факт, эта куртка стильнее и так-эе дешевле чем любая куртка у козаха.
+
+    </div>
+</body>
+<script>
+    let a=1;
+document.querySelector('#submit').onclick=function(){
+    alert('Вы купили. Ждите доставку по адресу ул.Араратская 10')
+};
+document.querySelector('.change').onclick=function(){
+    a=a+1;
+    if (a===1){
+        document.querySelector(".catalog-logo-1").src="клжанка.jpg";
+    } else if (a===2) {
+        document.querySelector(".catalog-logo-1").src="клжанка 2.jpg";
+    } 
+    if (a>2){
+        a=1;
+    };
+    
+};
+</script>
+</html>
+
